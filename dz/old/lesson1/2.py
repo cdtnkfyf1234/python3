@@ -1,0 +1,1 @@
+print("Life is what happens \n        When \n          you`re \n              busi making \n               other plans ")

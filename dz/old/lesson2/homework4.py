@@ -1,0 +1,1 @@
+print("Life is what happens \n    when \n     you`re busi making other plans. \n       Jonn Lennon.")
