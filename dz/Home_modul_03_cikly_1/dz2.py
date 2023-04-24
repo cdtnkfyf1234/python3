@@ -3,11 +3,13 @@ a=int(input("a= "))
 b=int(input("b= "))
 s=0
 for i in range(a, b+1):
-    print(i)
+    print(i, end=" ")
 else:
+    print('\n')
     for  i in reversed(range(a, b+1)):
-        print(i)
+        print(i, end=" ")
     else:
+        print("\n")
         for i in range(a, b+1):
             if i%7==0:
                 print(i, "\n")
