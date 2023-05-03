@@ -1,11 +1,21 @@
 # Написать программу, которая выводит на экран шахматную доску с заданным размером клеточки
-n=int(input("n="))
-simvol1=input("*")
-# print(n*simvol1)
-simvol2=input("_")
-for i in range(n):
-    for j in range(n):
-        for m in range(n):
-            for k in range(n):
-                if (i+k)%2==0:
-                    print(simvol1, sep="", end="")
+for i in range(8):
+    s=""
+    for k in range(4):
+        s+="***---"
+    else:
+        if not i%2: "---***"
+    print(s)# 
+# n=int(input("Введите ширину"))
+# h=int(input("Введите высоту"))
+# sim1=("*")
+# sim2=("-")
+# for i in range(n): #ширина
+#     for j in range(h): #высота
+#         for k in range(n): #ширина клеточки
+#             for m in range(h): #столбик
+#                 if (i+k)%2==0:
+#                     print(sim1, sep="")
+#                 else: 
+#                     print(sim2, sep="", end="")
+
