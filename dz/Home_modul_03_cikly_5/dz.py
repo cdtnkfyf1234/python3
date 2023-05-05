@@ -33,7 +33,4 @@ for row in range(1, rows):
     print("")
 
 
-# if choise==1:
-#         size = 10
-# for i in range(size):
-#     print(*['*'] * (i if i < size // 2 else size - i))
+
