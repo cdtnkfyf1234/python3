@@ -2,11 +2,11 @@
 print("Вывести на экран фигуры, заполненные звездочками")
 print("Выберите задание: ")
 choise=int(input("Ваш выбор"))
-
+n = 10
 if choise==2:
-    for i in range(10):
-        if ( i < 10 - 1) or ( i > 10 - 1):
-            print(i*"*")
+    for i in range(n):
+        # if ( i < 10 - 1) or ( i > 10 - 1):
+            print(" "*i, (n-2*i)*"*"," "*i,sep='')
 
 if choise==9:
     for i in reversed( range(10)):
