@@ -21,15 +21,3 @@ if choise==7:
         print("*"*(i+1), ""*(n-2*i))
 
 
-# if choise==6:
-#     n=int(input("n= "))
-#     for i in range(n//2):
-#         print("*" * (i+1)), ("" * (n-2*i))
-#     for i in range(n//2, 0, -1):
-#          print("*" * (i+1)), ("" *(n-2*i))
-
-if choise==9:
-    n=10
-    # n=int(input("n= "))
-    for i in range(n):
-        print("*" * (n-1), "" * i)
