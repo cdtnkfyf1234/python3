@@ -1,7 +1,7 @@
 # Вывести на экран фигуры, заполненные звездочками.Диалог с пользователем реализовать при помощи меню.
 print("Вывести на экран фигуры, заполненные звездочками")
 print("Выберите задание: ")
-choise=int(input("Ваш выбор"))
+choise=int(input("Ваш выбор: "))
 
 if choise==2:
     for i in range(10):
@@ -20,17 +20,16 @@ if choise==7:
     for i in range(n,0,-1):
         print("*"*(i+1), ""*(n-2*i))
 
-if choise==10:
-    rows = 6
-for row in range(1, rows):
-    num = 1
-    for j in range(rows, 0, -1):
-        if j > row:
-            print(" ", end=' ')
-        else:
-            print(num, end=' ')
-            num += 1
-    print("")
 
+# if choise==6:
+#     n=int(input("n= "))
+#     for i in range(n//2):
+#         print("*" * (i+1)), ("" * (n-2*i))
+#     for i in range(n//2, 0, -1):
+#          print("*" * (i+1)), ("" *(n-2*i))
 
-
+if choise==9:
+    n=10
+    # n=int(input("n= "))
+    for i in range(n):
+        print("*" * (n-1), "" * i)

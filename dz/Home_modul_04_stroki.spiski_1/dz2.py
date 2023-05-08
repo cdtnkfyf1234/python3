@@ -3,6 +3,8 @@ text=input("Введіть текст: ")
 words=input("Введіть список зарезервованих слів: ")
 words=words.upper()
 print(words.upper())
-text1=text.replace("words", "words.upper()")
+n=words
+x=words.upper()
+text1=text.replace("n", "x")
 
 print(text1)
