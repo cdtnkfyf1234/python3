@@ -1,4 +1,4 @@
-n=int(input("count of number: "))
+n=int(input("Скільки елементів у списку: "))
 lst = []
 for i in range(n):
     lst.append(int(input("number["+str(i)+"] = ")))
