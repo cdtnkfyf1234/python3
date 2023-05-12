@@ -1,23 +1,24 @@
 # В списке целых, заполненном случайными числами,определить минимальный и максимальный элементы,
-s=input("Введіть список випадкових чисел: ")
-s=lst=[]
-sum1=0
-sum2=0
-i1=0
-i2=0
-i0=0
-# print(max())
-# print(min())
-for i in lst: 
-    if i<0:
-        sum1+=i
-        i1+=1
-        print(sum1)
-        print(i1)
-    elif i==0:
-        i0+=1
+a=int(input("a= "))
+b=int(input("b= "))
+S1=S2=S3=0
+Min=Max=0
+for x in range(a, b):
+    if x>0:
+        S1+=1
+    elif x<0:
+        S2+=1
     else:
-        sum2+=i
-        i2+=1
-    print(sum2)
-    print(i2)
+        S3+=1
+print(S1)
+print(S2)
+print(S3)
+
+
+for i in range(a, b+1):
+    if i < Min:
+        Min=i
+    elif i>Max:
+        Max=i
+print(Min)
+print(Max)
