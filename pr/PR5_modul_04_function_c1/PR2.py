@@ -2,6 +2,6 @@
 def funct_odd(a, b):
     for i in range(a,b):
         if i %2 !=0:
-            print(i)
+            print(i, end=" ")
 
 funct_odd(1,20)
