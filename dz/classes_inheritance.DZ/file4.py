@@ -9,3 +9,6 @@ class Magazine(Printer_edition):
         self.set_publisher1=publisher1
     def showinfo(self):
         print()
+magazine=Magazine("iii", "jjj", "ggg", "yyy", "hhh")
+magazine.showinfo()
+print(magazine)
